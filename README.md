@@ -18,7 +18,7 @@
 
 ### 📬 Get in Touch
 📧 Email: [sandra.granstad@gmail.com](mailto:sandra.granstad@gmail.com)  
-💻 GitHub: https://github.com/gransandra
+💻 GitHub: https://github.com/sandragran
 🔗 LinkedIn: https://www.linkedin.com/in/sandragrans/  
 
 ---
