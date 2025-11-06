@@ -10,7 +10,8 @@ Below is a selection of peer-reviewed articles and institutional reports. Click 
 ## 🧬 Peer-reviewed articles
 
 - Supraha, L., Klemm, K., **Gran-Stadniczeñko, S.**, Hörstmann, C., Vaulot, D., Edvardsen, B. & John, U. (2022). **Diversity and biogeography of planktonic diatoms in Svalbard fjords: The role of dispersal and Arctic endemism in phytoplankton community structuring.** *Elementa: Science of the Anthropocene*, 10(1), Article 00117.  
-  👉 https://doi.org/10.1525/elementa.2021.00117
+  👉 [[https://doi.org/10.1525/elementa.2021.00117](https://doi.org/10.1525/elementa.2021.00117)]
+
 
 - Klemm, K., Cembella, A., Clarke, D., Cusack, C., Arneborg, L., Karlson, B., Liu, Y., Naustvoll, L. J., Siano, R., **Gran-Stadniczeñko, S.** & John, U. (2022). **Apparent biogeographical trends in Alexandrium blooms for northern Europe: identifying links to climate change and effective adaptive actions.** *Harmful Algae*, 119, Article 102335.  
   👉 https://doi.org/10.1016/j.hal.2022.102335
