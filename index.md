@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-# 👋 Hi — I’m **Dr. Sandra Granstad**
+# 👋 Hi — I’m **Dr. Sandra Gran**
 
 **Marine Biologist & Data Scientist** (PhD, University of Oslo)  
 Research Scientist at **NIVA (Norway)** — coastal monitoring, phytoplankton ecology, marine biogeochemistry.
