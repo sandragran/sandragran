@@ -15,7 +15,7 @@ Below is a selection of peer-reviewed articles and institutional reports. Click 
 
 - **Lundsør, E., Eikrem, W., Stige, L. C., Engesmo, A., Gran, S. & Edvardsen, B. (2022).** *Changes in phytoplankton community structure over a century in relation to environmental factors.* **Journal of Plankton Research**, 44(6), 854–871. https://doi.org/10.1093/plankt/fbac055
 
-## Institutional reports & technical reports
+## Institutional & technical reports
 
 - Engesmo, A., Gran, S., Beylich, B., Kaste, Ø., Saesin, P., Valestrand, L., Harvey, E. T. & Sørensen, K. (2024). **Overvåking av Ytre Oslofjord 2019-2023 - Årsrapport 2023.** Norsk institutt for vannforskning (NIVA). https://hdl.handle.net/11250/3145791
 
