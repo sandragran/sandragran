@@ -23,4 +23,8 @@
 
 ---
 
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsandragran&title=Profile%20Views&edge_flat=false)
+
+---
+
 _This site is powered by [GitHub Pages](https://pages.github.com/)._
