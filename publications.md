@@ -66,8 +66,5 @@ Below is a selection of peer-reviewed articles and institutional reports. Click 
 - Engesmo, A., **Gran, S.** & Edvardsen, B. (2021). **Planteplankton – ØKOKYST delprogram fjorder og kystvann 2020.** (NIVA-rapport 7593-2021). Norsk institutt for vannforskning.  
   👉 https://hdl.handle.net/11250/2837864
 
-- Engesmo, A., **Gran, S.** & Edvardsen, B. (2020). **Planteplankton – ØKOKYST delprogram fjorder og kystvann 2019.** (NIVA-rapport 7430-2020). Norsk institutt for vannforskning.  
-  👉 https://hdl.handle.net/11250/2724537
-
 ---
 
