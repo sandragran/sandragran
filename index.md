@@ -10,7 +10,7 @@ layout: default
   <div class="profile">
     <img src="/assets/profile.jpg" alt="Dr. Sandra Gran">
     <div class="meta">
-      <h1>Dr. Sandra Granstad</h1>
+      <h1>Dr. Sandra Gran</h1>
       <p class="role">Marine Biologist • Data Scientist • NIVA</p>
 
       <div class="socials">
@@ -31,7 +31,7 @@ layout: default
     <p class="lead"><strong>Marine Biologist & Data Scientist</strong> (PhD, Univ. of Oslo). I work on coastal monitoring, phytoplankton ecology and marine biogeochemistry. Skilled in R & Python, integrating in-situ and satellite datasets for operational oceanography.</p>
 
     <div class="cta">
-      <a class="btn-cta" href="/assets/CV_Sandra_Granstad.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="btn-cta" href="/assets/CV_Sandra_Gran.pdf" target="_blank" rel="noopener">Download CV</a>
       <a class="btn-ghost" href="projects.md">Explore projects</a>
     </div>
 
