@@ -8,7 +8,7 @@ layout: default
 **Marine Biologist & Data Scientist** (PhD, University of Oslo)  
 Research Scientist at **NIVA (Norway)** — coastal monitoring, phytoplankton ecology, marine biogeochemistry.
 
-[About](about.md) · [Projects](projects.md) · [Skills](skills.md) · [Publications](publications.md) · [Contact](contact.md)
+[About](about.md) · [Projects](projects.md) · [Mini-Projects](miniprojects.md) · [Skills](skills.md) · [Publications](publications.md) · [Contact](contact.md)
 
 ---
 
