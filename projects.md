@@ -10,6 +10,8 @@ Click any card to open the project page with description and links.
 
 <div class="projects-grid">
 
+---
+
 <!-- Project 1 -->
 <a class="project-card" href="projects/nanodiv.md">
   <img class="project-thumb" src="/assets/projects/nanodiv.jpg" alt="NanoDiv thumbnail">
@@ -19,6 +21,8 @@ Click any card to open the project page with description and links.
   </div>
   <span class="project-link">Open project →</span>
 </a>
+
+---
 
 <!-- Project 2 -->
 <a class="project-card" href="projects/promise.md">
