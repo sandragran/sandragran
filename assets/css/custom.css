@@ -1,0 +1,129 @@
+/* === Hero layout (profile left, about right) - compatible con Cayman === */
+
+.hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  align-items: center;
+  padding: 56px 24px;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* background using Cayman blue-ish tones, fallback if no image */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(2,74,88,0.95), rgba(3,57,68,0.9));
+  z-index: 0;
+}
+
+/* optional image overlay */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.16;
+  z-index: 0;
+  filter: saturate(0.95) blur(0.8px);
+}
+
+/* profile picture */
+.hero .profile {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero .profile img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid rgba(255,255,255,0.12);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+  background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+/* name and role */
+.hero .meta {
+  margin-top: 12px;
+  color: #fff;
+}
+.hero .meta h1 {
+  margin: 6px 0 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.hero .meta p.role {
+  margin: 4px 0 0;
+  opacity: 0.95;
+  font-weight: 500;
+}
+
+/* right column: about + buttons + grid */
+.hero .about {
+  position: relative;
+  z-index: 2;
+  padding-right: 12px;
+}
+.hero .about p.lead {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+  color: rgba(255,255,255,0.95);
+}
+.hero .about .cta {
+  margin: 12px 0 18px;
+}
+.btn-cta {
+  display: inline-block;
+  background: #0e8aa8;
+  color: white;
+  padding: 9px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 8px;
+  box-shadow: 0 6px 14px rgba(4,39,47,0.25);
+}
+.btn-ghost {
+  display: inline-block;
+  background: transparent;
+  color: #eaf6fb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.12);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* info grid bottom: interests / education */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+.info-grid h4 { margin: 0 0 6px; color: #e9fbff; }
+.info-grid ul { margin: 0; padding-left: 18px; color: rgba(255,255,255,0.92); }
+
+/* social icons row */
+.socials {
+  display:flex;
+  gap:8px;
+  margin-top: 10px;
+}
+
+/* small responsive tweaks */
+@media (max-width: 880px) {
+  .hero { grid-template-columns: 1fr; padding: 34px 18px; text-align: center; }
+  .hero .profile { margin: 0 auto 12px; }
+  .about { padding: 0; }
+  .info-grid { grid-template-columns: 1fr; }
+}
