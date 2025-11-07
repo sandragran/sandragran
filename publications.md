@@ -63,7 +63,5 @@ Below is a selection of peer-reviewed articles and institutional reports. Click 
 - Engesmo, A., Staalstrøm, A., **Gran-Stadniczeñko, S.** & Kaste, Ø. (2022). **Overvåking av Ytre Oslofjord 2019-2023. Tilførsler og undersøkelser i vannmassene i 2021. Fagrapport.** (NIVA-rapport 7759-2022). Norsk institutt for vannforskning.  
   👉 [https://hdl.handle.net/11250/3005718](https://hdl.handle.net/11250/3005718)
   
-- Engesmo, A., **Gran, S.** & Edvardsen, B. (2021). **Planteplankton – ØKOKYST delprogram fjorder og kystvann 2020.** (NIVA-rapport 7593-2021). Norsk institutt for vannforskning.  
-  👉 [https://hdl.handle.net/11250/2837864](https://hdl.handle.net/11250/2837864)
 ---
 
