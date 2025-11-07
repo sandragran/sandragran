@@ -3,50 +3,136 @@ title: Home
 layout: default
 ---
 
-<!-- Inline CSS: temporary but forces the hero to appear instantly -->
 <style>
-/* Hide default theme header */
-.page-header, .jumbotron, .site-head, .page-head, .hero-banner { display:none !important; }
-.site-content { margin-top: 0 !important; }
+/* RESET DEFAULT HEADER */
+.page-header, .site-header, .jumbotron, .page-head {display:none !important;}
+.site-content {margin-top:0 !important;}
 
-/* Hero forced styling */
+/* HERO SECTION */
 #hero-wrapper.hero {
   position: relative;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 24px;
+  display: flex;
   align-items: center;
-  padding: 48px 20px;
-  color: #fff;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  min-height: 420px;
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #0a7a7a, #127f63);
+  color: white;
   overflow: hidden;
-  z-index: 10;
-  background: linear-gradient(180deg, #0b6b7a, #128b63);
 }
 
-/* optional background image (ensure /assets/hero-bg.jpg exists) */
+/* BACKGROUND IMAGE */
 #hero-wrapper .hero-bg {
-  position: absolute; inset:0;
+  position: absolute;
+  inset: 0;
   background-image: url('/assets/hero-bg.jpg');
-  background-size: cover; background-position:center;
-  opacity: 0.14; z-index:0; filter: saturate(.95) blur(.7px);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  z-index: 0;
 }
 
-/* profile column */
-#hero-wrapper .profile { position: relative; z-index: 2; display:flex; flex-direction:column; align-items:center; text-align:center; }
-#hero-wrapper .profile img { width:150px; height:150px; border-radius:50%; object-fit:cover; border:5px solid rgba(255,255,255,0.12); box-shadow:0 8px 22px rgba(0,0,0,0.35); }
+/* PROFILE */
+#hero-wrapper .profile {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+#hero-wrapper .profile img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.4);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+#hero-wrapper .meta h1 {
+  margin: 10px 0 4px;
+  font-size: 1.8rem;
+}
+#hero-wrapper .role {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
 
-/* about column */
-#hero-wrapper .about { position: relative; z-index: 2; padding-right: 8px; max-width: 980px; }
-#hero-wrapper .about .lead { font-size:1rem; margin:0 0 10px; color: rgba(255,255,255,0.95); }
+/* SOCIAL ICONS */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+.socials img {
+  height: 22px;
+  transition: transform 0.2s ease;
+}
+.socials img:hover {
+  transform: scale(1.1);
+}
 
-/* buttons & small layout */
-.btn-cta { background:#0e8aa8; color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:600; margin-right:8px; }
-.btn-ghost { background:transparent; color:#eaf6fb; padding:7px 10px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); text-decoration:none; font-weight:600; }
+/* ABOUT SECTION */
+#hero-wrapper .about {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-width: 280px;
+}
+#hero-wrapper .lead {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.95);
+  margin-bottom: 14px;
+}
+.cta {
+  margin-bottom: 16px;
+}
+.btn-cta {
+  background: #0e8aa8;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.btn-ghost {
+  background: transparent;
+  color: #eaf6fb;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+  text-decoration: none;
+  font-weight: 600;
+}
 
-/* responsive */
-@media (max-width:880px) {
-  #hero-wrapper.hero { grid-template-columns: 1fr; padding:28px 14px; text-align:center; }
-  #hero-wrapper .profile { margin:0 auto 12px; }
+/* INFO GRID */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.info-grid h4 {
+  color: #eaf6fb;
+  margin-bottom: 6px;
+}
+.info-grid ul {
+  padding-left: 18px;
+  margin: 0;
+  color: rgba(255,255,255,0.9);
+}
+
+/* RESPONSIVE */
+@media (max-width: 860px) {
+  #hero-wrapper.hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .about {max-width: 600px;}
 }
 </style>
 
@@ -59,16 +145,15 @@ layout: default
     <div class="meta">
       <h1>Dr. Sandra Gran</h1>
       <p class="role">Marine Biologist • Data Scientist • NIVA</p>
-
-      <div class="socials" style="display:flex;gap:8px;margin-top:10px;">
+      <div class="socials">
         <a href="https://www.linkedin.com/in/sandragrans/" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&style=flat-square&logoColor=white" alt="LinkedIn">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn">
         </a>
         <a href="https://github.com/sandragran" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/badge/GitHub-181717?logo=github&style=flat-square&logoColor=white" alt="GitHub">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">
         </a>
         <a href="mailto:sandra.granstad@gmail.com">
-          <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&style=flat-square&logoColor=white" alt="Email">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Email">
         </a>
       </div>
     </div>
@@ -82,29 +167,28 @@ layout: default
       <a class="btn-ghost" href="projects.md">Explore projects</a>
     </div>
 
-    <div class="info-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px;">
+    <div class="info-grid">
       <div>
-        <h4 style="color:#e9fbff;margin:0 0 6px;">Interests</h4>
-        <ul style="margin:0;padding-left:18px;color:rgba(255,255,255,0.95);">
+        <h4>Interests</h4>
+        <ul>
           <li>Phytoplankton & protists</li>
           <li>Satellite ocean color</li>
           <li>Biogeochemical cycles</li>
         </ul>
       </div>
       <div>
-        <h4 style="color:#e9fbff;margin:0 0 6px;">Education</h4>
-        <ul style="margin:0;padding-left:18px;color:rgba(255,255,255,0.95);">
+        <h4>Education</h4>
+        <ul>
           <li>PhD in Marine Molecular Biology — UiO</li>
           <li>Postdoc & Research Scientist — NIVA</li>
         </ul>
       </div>
     </div>
   </div>
-
 </div>
 
 <!-- small spacer -->
-<div style="height:18px"></div>
+<div style="height:24px"></div>
 
 # 👋 Hi — I’m **Sandra Gran (PhD.)**
 
