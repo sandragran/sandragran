@@ -8,6 +8,7 @@ plugins:
   - jekyll-remote-theme
 
 custom_css: /assets/css/custom.css
+background-image: url('/assets/hero-bg.jpg');
 
 # optional: improve navigation if you have those pages
 # Note: keep simple to avoid build errors
