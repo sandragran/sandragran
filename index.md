@@ -2,12 +2,8 @@
 title: Home
 layout: default
 ---
----
-title: Home
-layout: default
----
 
-<div class="hero">
+<div id="hero-wrapper" class="hero">
 
   <div class="hero-bg" aria-hidden="true"></div>
 
@@ -18,7 +14,6 @@ layout: default
       <p class="role">Marine Biologist • Data Scientist • NIVA</p>
 
       <div class="socials">
-        <!-- Shields / icons (you can change links) -->
         <a href="https://www.linkedin.com/in/sandragrans/" target="_blank" rel="noopener">
           <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&style=flat-square&logoColor=white" alt="LinkedIn">
         </a>
@@ -61,8 +56,8 @@ layout: default
 
 </div>
 
-
-
+<!-- small spacer -->
+<div style="height:18px"></div>
 
 # 👋 Hi — I’m **Sandra Gran (PhD.)**
 
