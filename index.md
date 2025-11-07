@@ -8,7 +8,7 @@ layout: default
   <div class="hero-bg" aria-hidden="true"></div>
 
   <div class="profile">
-    <img src="/assets/profile.jpg" alt="Dr. Sandra Granstad">
+    <img src="/assets/profile.jpg" alt="Dr. Sandra Gran">
     <div class="meta">
       <h1>Dr. Sandra Granstad</h1>
       <p class="role">Marine Biologist • Data Scientist • NIVA</p>
