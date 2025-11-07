@@ -28,7 +28,7 @@ layout: default
 #hero-wrapper .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/assets/hero-bg.jpg');
+  background-image: url('{{ site.baseurl }}/assets/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.15;
@@ -141,7 +141,7 @@ layout: default
   <div class="hero-bg" aria-hidden="true"></div>
 
   <div class="profile">
-    <img src="/assets/profile.jpg" alt="Dr. Sandra Gran">
+    <img src="{{ site.baseurl }}/assets/profile.jpg" alt="Dr. Sandra Gran">
     <div class="meta">
       <h1>Dr. Sandra Gran</h1>
       <p class="role">Marine Biologist • Data Scientist • NIVA</p>
