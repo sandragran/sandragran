@@ -1,14 +1,37 @@
-title: "Dr. Sandra Gran"
-description: "Marine Scientist | Coastal monitoring, phytoplankton ecology & ocean data"
+# Site settings
+title: Sandra Gran
+description: Marine Biologist & Data Scientist — coastal monitoring, phytoplankton ecology & ocean data
+# URL of the live site (no trailing slash)
+url: "https://sandragran.github.io"
 
-# Force a supported remote theme (Cayman)
+# baseurl should be empty for user/organization pages
+baseurl: ""
+
+# Theme (Cayman) via remote_theme
 remote_theme: pages-themes/cayman@v0.2.0
-
 plugins:
   - jekyll-remote-theme
 
+# Force inclusion of your custom CSS
 custom_css: /assets/css/custom.css
-background-image: url('/assets/hero-bg.jpg');
 
-# optional: improve navigation if you have those pages
-# Note: keep simple to avoid build errors
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Build settings
+permalink: /:path/
+paginate: 0
+
+# Exclude from the build (optional)
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Optional: social links for templates (not required)
+author:
+  name: "Sandra Gran"
+  email: "sandra.granstad@gmail.com"
