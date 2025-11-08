@@ -12,8 +12,6 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# Force inclusion of your custom CSS
-custom_css: /assets/css/custom.css
 
 # Markdown settings
 markdown: kramdown
