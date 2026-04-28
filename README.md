@@ -3,6 +3,7 @@
 🌊 Marine biologist turned data analyst, working with ocean and biogeochemical data at NIVA.
 
 💻Strong in R for statistical analysis and visualisation, currently building Python and remote sensing workflows.
+
 🌍 Passionate about **sustainable ocean management**.
 
 ---
