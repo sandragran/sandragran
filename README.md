@@ -1,18 +1,28 @@
 # 👋 Hi, I'm Sandra Gran (PhD.)
 
-🎓 **Marine Biologist & Data Scientist** (PhD, University of Oslo)  
-🌊 Researcher at **NIVA (Norway)** working on **coastal monitoring, phytoplankton ecology, and marine biogeochemistry**.  
+🌊 Marine biologist turned data analyst, working with ocean and biogeochemical data at NIVA.
 
-💻 Experienced in **R**, expanding skills in **Python** for data analysis, visualization, and marine indicators.  
+💻Strong in R for statistical analysis and visualisation, currently building Python and remote sensing workflows.
 🌍 Passionate about **sustainable ocean management**.
 
 ---
 
 ### 🔬 Current Focus
-- Coastal & fjord ecosystem monitoring  
-- Phytoplankton dynamics & biogeochemical indicators  
-- Nature-inclusive offshore energy (NiD4OCEAN – Horizon Europe)  
-- Environmental data analysis & visualisation  
+- Coastal and fjord monitoring data
+- Phytoplankton dynamics and environmental indicators
+- Satellite data and remote sensing (Copernicus, Sentinel)
+- Reproducible data analysis workflows  
+
+---
+### 🧰 Tools
+- **R** (advanced): data analysis, visualisation, statistics
+- **Python (growing)**: pandas, xarray, geospatial workflows
+- **SQL** (basic)
+
+---
+
+### 📁 Featured Work
+(Projects pinned below)
 
 ---
 
